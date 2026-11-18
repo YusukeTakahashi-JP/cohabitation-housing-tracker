@@ -371,108 +371,108 @@ function renderPropertyWorkspace() {
   }
 
   el.innerHTML = `
-    <!-- Top Compact Property Title Bar (42px) -->
-    <div class="px-4 py-2 bg-slate-900 text-white shrink-0 flex flex-wrap items-center justify-between gap-2">
-      <div class="flex items-center gap-2.5 min-w-0">
+    <!-- Top Compact Property Title Bar -->
+    <div class="px-3 sm:px-4 py-2.5 lg:py-2 bg-slate-900 text-white shrink-0 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center gap-1.5 sm:gap-2.5 min-w-0">
         <span class="px-2 py-0.5 rounded text-[11px] font-extrabold shrink-0 ${p.rule_check_status === 'PASS' ? 'bg-emerald-500 text-white' : p.rule_check_status === 'RELAXED' ? 'bg-amber-400 text-slate-950' : 'bg-rose-600 text-white'}">
           ${p.rule_check_status === 'PASS' ? '⭕ 必須条件クリア' : p.rule_check_status === 'RELAXED' ? '⚠️ 緩和条件枠' : '❌ 条件NG'}
         </span>
-        <h2 class="text-sm sm:text-base font-extrabold truncate">${p.building_name} <span class="text-blue-300">${p.room_number}</span></h2>
-        <span class="text-xs text-slate-300 truncate hidden xl:inline">📍 ${p.station_info}（豊洲へ約${p.commute_toyosu_min}分）</span>
+        <h2 class="text-sm sm:text-base font-extrabold">${p.building_name} <span class="text-blue-300">${p.room_number}</span></h2>
+        <span class="text-[11px] sm:text-xs text-slate-300 block sm:inline w-full sm:w-auto">📍 ${p.station_info}（豊洲へ約${p.commute_toyosu_min}分）</span>
       </div>
 
       <!-- Inline Evaluation & External Links -->
-      <div class="flex items-center gap-2 text-xs shrink-0">
-        <select onchange="updatePropertyField('${p.id}', 'status', this.value)" class="rounded px-2 py-0.5 bg-slate-800 text-white font-bold border border-slate-600">
+      <div class="flex flex-wrap items-center gap-1.5 text-xs shrink-0">
+        <select onchange="updatePropertyField('${p.id}', 'status', this.value)" class="rounded px-2 py-1 lg:py-0.5 bg-slate-800 text-white font-bold border border-slate-600">
           ${['候補（検討中）', '🔥内見希望（最有力）', '内見予定', '内見済', '見送り候補', '見送り（条件外）'].map((s) => `<option value="${s}" ${p.status === s ? 'selected' : ''}>${s}</option>`).join('')}
         </select>
-        <select onchange="updatePropertyField('${p.id}', 'master_rating', Number(this.value))" class="rounded px-1.5 py-0.5 bg-slate-800 text-amber-400 font-bold border border-slate-600">
+        <select onchange="updatePropertyField('${p.id}', 'master_rating', Number(this.value))" class="rounded px-1.5 py-1 lg:py-0.5 bg-slate-800 text-amber-400 font-bold border border-slate-600">
           ${[0,1,2,3,4,5].map((n) => `<option value="${n}" ${p.master_rating === n ? 'selected' : ''}>自分:${n === 0 ? '-' : '★'.repeat(n)}</option>`).join('')}
         </select>
-        <select onchange="updatePropertyField('${p.id}', 'partner_rating', Number(this.value))" class="rounded px-1.5 py-0.5 bg-slate-800 text-pink-400 font-bold border border-slate-600">
+        <select onchange="updatePropertyField('${p.id}', 'partner_rating', Number(this.value))" class="rounded px-1.5 py-1 lg:py-0.5 bg-slate-800 text-pink-400 font-bold border border-slate-600">
           ${[0,1,2,3,4,5].map((n) => `<option value="${n}" ${p.partner_rating === n ? 'selected' : ''}>Yumi:${n === 0 ? '-' : '★'.repeat(n)}</option>`).join('')}
         </select>
-        ${pdfFile ? `<a href="./pdfs/${pdfFile}" target="_blank" class="px-2 py-0.5 rounded bg-slate-700 hover:bg-slate-600 text-slate-200 font-semibold">📄元PDF</a>` : ''}
-        ${p.suumo_url ? `<a href="${p.suumo_url}" target="_blank" class="px-2 py-0.5 rounded bg-emerald-600 hover:bg-emerald-500 text-white font-bold">🔗SUUMO</a>` : ''}
+        ${pdfFile ? `<a href="./pdfs/${pdfFile}" target="_blank" class="px-2 py-1 lg:py-0.5 rounded bg-slate-700 hover:bg-slate-600 text-slate-200 font-semibold">📄元PDF</a>` : ''}
+        ${p.suumo_url ? `<a href="${p.suumo_url}" target="_blank" class="px-2 py-1 lg:py-0.5 rounded bg-emerald-600 hover:bg-emerald-500 text-white font-bold">🔗SUUMO</a>` : ''}
       </div>
     </div>
 
-    <!-- Fit-to-Screen Side-by-Side Body (Fills remaining height with ZERO page overflow!) -->
-    <div class="flex-1 min-h-0 grid grid-cols-12">
-      <!-- LEFT 7 COLS: MAISOKU / ESTIMATE IMAGE FITTED 100% TO VIEWPORT -->
-      <div class="col-span-7 h-full min-h-0 bg-slate-100/80 border-r border-slate-200 p-2.5 flex flex-col gap-2">
+    <!-- Responsive Body: Mobile/Portrait Tablet = Stacked & Natural Scroll / Desktop (lg+) = Side-by-Side 1-Screen Fit -->
+    <div class="flex-1 lg:min-h-0 grid grid-cols-1 lg:grid-cols-12">
+      <!-- LEFT (7 COLS on lg, full width on mobile): MAISOKU / ESTIMATE IMAGE -->
+      <div class="lg:col-span-7 lg:h-full lg:min-h-0 bg-slate-100/80 border-b lg:border-b-0 lg:border-r border-slate-200 p-2 sm:p-2.5 flex flex-col gap-2">
         <!-- Image Toggle Buttons -->
-        <div class="flex items-center justify-between gap-2 bg-white px-2.5 py-1.5 rounded-xl border border-slate-200 shadow-sm shrink-0">
+        <div class="flex flex-wrap items-center justify-between gap-1.5 bg-white px-2.5 py-1.5 rounded-xl border border-slate-200 shadow-sm shrink-0">
           <div class="flex items-center gap-1.5">
-            <button onclick="setImageMode('maisoku')" class="px-3 py-1 rounded-lg text-xs font-extrabold transition ${selectedImageMode === 'maisoku' ? 'bg-blue-600 text-white shadow-sm' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            <button onclick="setImageMode('maisoku')" class="px-2.5 sm:px-3 py-1.5 lg:py-1 rounded-lg text-xs font-extrabold transition ${selectedImageMode === 'maisoku' ? 'bg-blue-600 text-white shadow-sm' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
               ${labelBtn1}
             </button>
-            <button onclick="setImageMode('estimate')" class="px-3 py-1 rounded-lg text-xs font-extrabold transition ${selectedImageMode === 'estimate' ? 'bg-blue-600 text-white shadow-sm' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            <button onclick="setImageMode('estimate')" class="px-2.5 sm:px-3 py-1.5 lg:py-1 rounded-lg text-xs font-extrabold transition ${selectedImageMode === 'estimate' ? 'bg-blue-600 text-white shadow-sm' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
               ${labelBtn2}
             </button>
           </div>
-          <button onclick="openImageModal('${currentImgUrl}')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold transition">
-            🔍 クリックで拡大
+          <button onclick="openImageModal('${currentImgUrl}')" class="px-2.5 py-1.5 lg:py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-white text-xs font-bold transition">
+            🔍 拡大
           </button>
         </div>
 
-        <!-- Auto-Fit Image Box (Never overflows or clips!) -->
-        <div class="flex-1 min-h-0 bg-white rounded-xl border border-slate-200 shadow-sm p-2 flex items-center justify-center overflow-hidden">
+        <!-- Auto-Fit Image Box -->
+        <div class="lg:flex-1 lg:min-h-0 bg-white rounded-xl border border-slate-200 shadow-sm p-1.5 sm:p-2 flex items-center justify-center overflow-hidden">
           ${currentImgUrl ? `
             <img
               src="${currentImgUrl}"
               alt="${p.building_name}"
               onclick="openImageModal('${currentImgUrl}')"
-              title="クリックで全画面拡大"
-              class="max-w-full max-h-full object-contain cursor-zoom-in rounded"
+              title="タップ・クリックで全画面拡大"
+              class="w-full lg:w-auto max-w-full max-h-[58vh] lg:max-h-full object-contain cursor-zoom-in rounded"
             />
           ` : `
-            <div class="text-slate-400 text-xs">画像がありません</div>
+            <div class="text-slate-400 text-xs py-12">画像がありません</div>
           `}
         </div>
       </div>
 
-      <!-- RIGHT 5 COLS: COMPACT KPI HEADER + 4 SUB-TABS -->
-      <div class="col-span-5 h-full min-h-0 bg-white p-3 flex flex-col gap-2.5">
+      <!-- RIGHT (5 COLS on lg, full width below image on mobile): COMPACT KPI HEADER + 4 SUB-TABS -->
+      <div class="lg:col-span-5 lg:h-full lg:min-h-0 bg-white p-3 flex flex-col gap-2.5">
         <!-- Compact 3-Column Numbers Banner -->
         <div class="grid grid-cols-3 gap-2 p-2.5 rounded-xl bg-slate-900 text-white shrink-0">
           <div>
             <div class="text-[10px] text-slate-400">月額総家賃（管理費込）</div>
-            <div class="text-base font-extrabold text-white">${yen(p.total_monthly_yen)}</div>
+            <div class="text-sm sm:text-base font-extrabold text-white">${yen(p.total_monthly_yen)}</div>
             <div class="text-[10px] text-slate-300">賃 ${man(p.rent_yen)} + 管 ${yen(p.management_fee_yen)}</div>
           </div>
           <div>
             <div class="text-[10px] text-slate-400">初期費用概算見積</div>
-            <div class="text-base font-extrabold ${mainPr && mainPr.total_initial_cost_yen <= 800000 ? 'text-emerald-400' : 'text-amber-300'}">
+            <div class="text-sm sm:text-base font-extrabold ${mainPr && mainPr.total_initial_cost_yen <= 800000 ? 'text-emerald-400' : 'text-amber-300'}">
               ${mainPr ? yen(mainPr.total_initial_cost_yen) : '未取得'}
             </div>
             <div class="text-[10px] text-slate-300">${mainPr && mainPr.breakdown.brokerage_fee_yen === 0 ? '🔥仲介0円・敷0円!' : '上限80万円'}</div>
           </div>
           <div>
             <div class="text-[10px] text-slate-400">間取り・面積・AI評価</div>
-            <div class="text-base font-extrabold text-amber-400">${p.floor_plan} (${p.area_sqm}㎡)</div>
+            <div class="text-sm sm:text-base font-extrabold text-amber-400">${p.floor_plan} (${p.area_sqm}㎡)</div>
             <div class="text-[10px] text-slate-300">${p.structure} / 築${p.age_years}年 / AI ${p.ai_score}点</div>
           </div>
         </div>
 
         <!-- 4 Sub-Tab Buttons for Right Panel -->
         <div class="grid grid-cols-4 gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200 shrink-0 text-xs">
-          <button onclick="setRightSubTab('ai')" class="py-1.5 px-2 rounded-lg transition text-center ${selectedRightSubTab === 'ai' ? 'subtab-active shadow-sm' : 'text-slate-600 hover:bg-white font-semibold'}">
+          <button onclick="setRightSubTab('ai')" class="py-2 lg:py-1.5 px-1.5 rounded-lg transition text-center ${selectedRightSubTab === 'ai' ? 'subtab-active shadow-sm' : 'text-slate-600 hover:bg-white font-semibold'}">
             🤖 AI診断
           </button>
-          <button onclick="setRightSubTab('rules')" class="py-1.5 px-2 rounded-lg transition text-center ${selectedRightSubTab === 'rules' ? 'subtab-active shadow-sm' : 'text-slate-600 hover:bg-white font-semibold'}">
+          <button onclick="setRightSubTab('rules')" class="py-2 lg:py-1.5 px-1.5 rounded-lg transition text-center ${selectedRightSubTab === 'rules' ? 'subtab-active shadow-sm' : 'text-slate-600 hover:bg-white font-semibold'}">
             📋 条件・設備
           </button>
-          <button onclick="setRightSubTab('cost')" class="py-1.5 px-2 rounded-lg transition text-center ${selectedRightSubTab === 'cost' ? 'subtab-active shadow-sm' : 'text-slate-600 hover:bg-white font-semibold'}">
+          <button onclick="setRightSubTab('cost')" class="py-2 lg:py-1.5 px-1.5 rounded-lg transition text-center ${selectedRightSubTab === 'cost' ? 'subtab-active shadow-sm' : 'text-slate-600 hover:bg-white font-semibold'}">
             💰 初期費用
           </button>
-          <button onclick="setRightSubTab('contract')" class="py-1.5 px-2 rounded-lg transition text-center ${selectedRightSubTab === 'contract' ? 'subtab-active shadow-sm' : 'text-slate-600 hover:bg-white font-semibold'}">
+          <button onclick="setRightSubTab('contract')" class="py-2 lg:py-1.5 px-1.5 rounded-lg transition text-center ${selectedRightSubTab === 'contract' ? 'subtab-active shadow-sm' : 'text-slate-600 hover:bg-white font-semibold'}">
             ✏️ 契約・メモ
           </button>
         </div>
 
         <!-- Sub-Tab Body Area -->
-        <div class="flex-1 min-h-0 overflow-y-auto pr-0.5">
+        <div class="lg:flex-1 lg:min-h-0 lg:overflow-y-auto pr-0.5 pb-4 lg:pb-0">
           ${rightTabHtml}
         </div>
       </div>
