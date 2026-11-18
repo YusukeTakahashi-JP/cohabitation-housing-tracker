@@ -10,9 +10,22 @@ let selectedViewingPropId = null;
 const yen = (n) => (n === null || n === undefined) ? '-' : Number(n).toLocaleString('ja-JP') + '円';
 const man = (n) => (n === null || n === undefined) ? '-' : (Number(n) / 10000).toFixed(1) + '万';
 
+let isStaticHost = false;
+
 async function reloadData() {
-  const res = await fetch('/api/data');
-  DB = await res.json();
+  try {
+    const res = await fetch('./api/data');
+    if (!res.ok) throw new Error('Static host');
+    DB = await res.json();
+    isStaticHost = false;
+  } catch (e) {
+    const res = await fetch('./data/housing_db.json?t=' + Date.now());
+    DB = await res.json();
+    isStaticHost = true;
+    applyLocalOverrides();
+    const b = document.getElementById('sync-badge');
+    if (b) b.textContent = '📱 iPad/Web閲覧モード';
+  }
   if (!selectedPropertyId && DB.properties.length > 0) {
     selectedPropertyId = DB.properties[0].id;
   }
@@ -20,6 +33,19 @@ async function reloadData() {
     selectedViewingPropId = DB.properties[0].id;
   }
   renderAll();
+}
+
+function applyLocalOverrides() {
+  try {
+    const propOverrides = JSON.parse(localStorage.getItem('housing_prop_overrides') || '{}');
+    DB.properties.forEach((p) => {
+      if (propOverrides[p.id]) Object.assign(p, propOverrides[p.id]);
+    });
+    const agOverrides = JSON.parse(localStorage.getItem('housing_ag_overrides') || '{}');
+    DB.agencies.forEach((a) => {
+      if (agOverrides[a.id]) Object.assign(a, agOverrides[a.id]);
+    });
+  } catch (e) {}
 }
 
 function switchTab(tab) {
@@ -201,7 +227,7 @@ function renderPropertyWorkspace() {
   const currentImgFile = selectedImageMode === 'estimate'
     ? (p.estimate_image || p.maisoku_image)
     : (p.maisoku_image || p.estimate_image);
-  const currentImgUrl = currentImgFile ? `/images/${currentImgFile}` : '';
+  const currentImgUrl = currentImgFile ? `./images/${currentImgFile}` : '';
 
   const labelBtn1 = hasMaisokuPdf ? '🖼️ 1. 募集図面（マイソク）' : '📐 1. 間取り図';
   const labelBtn2 = hasMaisokuPdf ? '🧾 2. 初期費用概算見積書' : '🏢 2. 建物外観';
@@ -366,7 +392,7 @@ function renderPropertyWorkspace() {
         <select onchange="updatePropertyField('${p.id}', 'partner_rating', Number(this.value))" class="rounded px-1.5 py-0.5 bg-slate-800 text-pink-400 font-bold border border-slate-600">
           ${[0,1,2,3,4,5].map((n) => `<option value="${n}" ${p.partner_rating === n ? 'selected' : ''}>Yumi:${n === 0 ? '-' : '★'.repeat(n)}</option>`).join('')}
         </select>
-        ${pdfFile ? `<a href="/pdfs/${pdfFile}" target="_blank" class="px-2 py-0.5 rounded bg-slate-700 hover:bg-slate-600 text-slate-200 font-semibold">📄元PDF</a>` : ''}
+        ${pdfFile ? `<a href="./pdfs/${pdfFile}" target="_blank" class="px-2 py-0.5 rounded bg-slate-700 hover:bg-slate-600 text-slate-200 font-semibold">📄元PDF</a>` : ''}
         ${p.suumo_url ? `<a href="${p.suumo_url}" target="_blank" class="px-2 py-0.5 rounded bg-emerald-600 hover:bg-emerald-500 text-white font-bold">🔗SUUMO</a>` : ''}
       </div>
     </div>
@@ -455,7 +481,17 @@ function renderPropertyWorkspace() {
 }
 
 async function updatePropertyField(id, field, value) {
-  const res = await fetch('/api/update_property', {
+  if (isStaticHost) {
+    const p = DB.properties.find((x) => x.id === id);
+    if (p) p[field] = value;
+    const propOverrides = JSON.parse(localStorage.getItem('housing_prop_overrides') || '{}');
+    propOverrides[id] = Object.assign(propOverrides[id] || {}, { [field]: value });
+    localStorage.setItem('housing_prop_overrides', JSON.stringify(propOverrides));
+    flashSyncBadge();
+    renderAll();
+    return;
+  }
+  const res = await fetch('./api/update_property', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ id, [field]: value })
@@ -571,7 +607,17 @@ function renderAgencies() {
 }
 
 async function updateAgencyField(id, field, value) {
-  const res = await fetch('/api/update_agency', {
+  if (isStaticHost) {
+    const a = DB.agencies.find((x) => x.id === id);
+    if (a) a[field] = value;
+    const agOverrides = JSON.parse(localStorage.getItem('housing_ag_overrides') || '{}');
+    agOverrides[id] = Object.assign(agOverrides[id] || {}, { [field]: value });
+    localStorage.setItem('housing_ag_overrides', JSON.stringify(agOverrides));
+    flashSyncBadge();
+    renderAll();
+    return;
+  }
+  const res = await fetch('./api/update_agency', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ id, [field]: value })
@@ -721,4 +767,40 @@ function flashSyncBadge() {
   }, 2000);
 }
 
-window.addEventListener('DOMContentLoaded', reloadData);
+function checkPasscodeGate() {
+  const host = window.location.hostname;
+  if (host === 'localhost' || host === '127.0.0.1') return true;
+  if (localStorage.getItem('housing_unlocked') === '2027') return true;
+  const gate = document.getElementById('passcode-gate');
+  if (gate) {
+    gate.classList.remove('hidden');
+    gate.classList.add('flex');
+    const inp = document.getElementById('passcode-input');
+    if (inp) {
+      inp.focus();
+      inp.onkeydown = (e) => { if (e.key === 'Enter') unlockPasscode(); };
+    }
+  }
+  return false;
+}
+
+function unlockPasscode() {
+  const val = (document.getElementById('passcode-input')?.value || '').trim();
+  if (val === '2027' || val === '0109') {
+    localStorage.setItem('housing_unlocked', '2027');
+    const gate = document.getElementById('passcode-gate');
+    if (gate) {
+      gate.classList.add('hidden');
+      gate.classList.remove('flex');
+    }
+    reloadData();
+  } else {
+    document.getElementById('passcode-err')?.classList.remove('hidden');
+  }
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  if (checkPasscodeGate()) {
+    reloadData();
+  }
+});
