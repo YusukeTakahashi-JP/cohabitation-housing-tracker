@@ -424,7 +424,7 @@ function renderPropertyWorkspace() {
               alt="${p.building_name}"
               onclick="openImageModal('${currentImgUrl}')"
               title="タップ・クリックで全画面拡大"
-              class="w-full lg:w-auto max-w-full max-h-[58vh] lg:max-h-full object-contain cursor-zoom-in rounded"
+              class="w-full lg:w-auto max-w-full max-h-[58vh] max-h-[58dvh] lg:max-h-full object-contain cursor-zoom-in rounded"
             />
           ` : `
             <div class="text-slate-400 text-xs py-12">画像がありません</div>

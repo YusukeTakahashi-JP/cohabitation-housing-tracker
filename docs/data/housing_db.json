@@ -90,7 +90,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "フォーム414エラーのため「メアドへ連絡依頼」で送信したところ、水曜定休日にもかかわらず11/18 15:18に佐藤翔太様より「もちろんメールでのご返信で差し支えございません」と直通アドレスから返信あり。11/18 21:09に詳細条件を返信済み。"
+      "memo": "フォーム414エラーのため「メアドへ連絡依頼」で送信したところ、水曜定休日にもかかわらず11/18 15:18に佐藤翔太様より「もちろんメールでのご返信で差し支えございません」と直通アドレスから返信あり。11/18 21:09に詳細条件を返信済み。 ※11/18 21:09の詳細条件返信は21:10に先方サーバーで送信エラー（553 maximum session time exceeds）となり未着。11/19時点で未再送。 11/19 再送文案をGmail下書きに保存（同スレッド返信）。マスターが手動送信予定。 11/19 マスターが手動で再送済。"
     },
     {
       "id": "aeras-ochanomizu",
@@ -1153,7 +1153,7 @@
       "direction": "INBOUND",
       "subject": "お問い合わせありがとうございます！タウンハウジング門前仲町店です！！",
       "summary": "佐藤翔太様より「もちろんメールでのご返信でも差し支えございません」と直通アドレス（hmonnaka@townhousing.co.jp）から連絡あり。",
-      "action_status": "11/18 21:09 詳細条件を返信済"
+      "action_status": "11/18 21:09 返信→送信エラーで未着・再送待ち"
     },
     {
       "gmail_message_id": "1a1ec74957943a87",
@@ -1190,6 +1190,15 @@
       "subject": "ストーンズ溝の口店お問合せ",
       "summary": "ストーンズ溝の口店よりフォーム自動受付メール（木曜返信待ち）。",
       "action_status": "木曜返信待ち"
+    },
+    {
+      "gmail_message_id": "1a1ee910c450c1c4",
+      "agency_id": "townhousing-monnaka",
+      "received_at": "2026-11-18 21:10",
+      "direction": "INBOUND",
+      "subject": "Returned Mail: 553 Sorry, maximum session time exceeds.",
+      "summary": "hmonnaka@townhousing.co.jp 宛ての詳細条件返信（21:09送信）が先方メールサーバーで送信エラー。アドレスは正しく、一時的な受信障害と推定。",
+      "action_status": "11/19 マスター手動再送済"
     }
   ]
 }
