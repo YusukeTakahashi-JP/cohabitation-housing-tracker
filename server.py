@@ -18,6 +18,7 @@ APP_DIR = Path(__file__).resolve().parent
 PKB_ROOT = Path(os.environ.get("PKB_ROOT", APP_DIR.parent / "Grimoire-pkb")).resolve()
 JSON_DB_PATH = PKB_ROOT / "04_resources" / "housing_data" / "housing_db.json"
 PDF_DIR = PKB_ROOT / "06_storage" / "housing" / "maisoku"
+IMG_DIR = PKB_ROOT / "06_storage" / "housing" / "images"
 SQLITE_DB_PATH = APP_DIR / "housing.db"
 PUBLIC_DIR = APP_DIR / "public"
 PORT = int(os.environ.get("PORT", "3456"))
@@ -238,6 +239,20 @@ class HousingRequestHandler(http.server.SimpleHTTPRequestHandler):
                     self.wfile.write(f.read())
                 return
             self.send_error(404, "PDF not found")
+            return
+        if parsed.path.startswith("/images/"):
+            filename = urllib.parse.unquote(parsed.path[len("/images/"):])
+            img_path = (IMG_DIR / filename).resolve()
+            if img_path.exists() and str(img_path).startswith(str(IMG_DIR.resolve())):
+                ctype = "image/png" if filename.endswith(".png") else "image/jpeg"
+                self.send_response(200)
+                self.send_header("Content-Type", ctype)
+                self.send_header("Content-Length", str(img_path.stat().st_size))
+                self.end_headers()
+                with open(img_path, "rb") as f:
+                    self.wfile.write(f.read())
+                return
+            self.send_error(404, "Image not found")
             return
         super().do_GET()
 
