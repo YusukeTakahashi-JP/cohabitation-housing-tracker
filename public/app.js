@@ -767,10 +767,18 @@ function flashSyncBadge() {
   }, 2000);
 }
 
+const PASSCODE_HASH = '46d38c91112f502480fc578dcf959c52a54a77f532273f8000830e2d90805008';
+
+async function sha256Hex(str) {
+  const buf = new TextEncoder().encode(str);
+  const hashBuf = await crypto.subtle.digest('SHA-256', buf);
+  return Array.from(new Uint8Array(hashBuf)).map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
 function checkPasscodeGate() {
   const host = window.location.hostname;
   if (host === 'localhost' || host === '127.0.0.1') return true;
-  if (localStorage.getItem('housing_unlocked') === '2027') return true;
+  if (localStorage.getItem('housing_unlocked_hash') === PASSCODE_HASH) return true;
   const gate = document.getElementById('passcode-gate');
   if (gate) {
     gate.classList.remove('hidden');
@@ -784,10 +792,11 @@ function checkPasscodeGate() {
   return false;
 }
 
-function unlockPasscode() {
+async function unlockPasscode() {
   const val = (document.getElementById('passcode-input')?.value || '').trim();
-  if (val === '2027' || val === '0109') {
-    localStorage.setItem('housing_unlocked', '2027');
+  const h = await sha256Hex(val);
+  if (h === PASSCODE_HASH) {
+    localStorage.setItem('housing_unlocked_hash', PASSCODE_HASH);
     const gate = document.getElementById('passcode-gate');
     if (gate) {
       gate.classList.add('hidden');
