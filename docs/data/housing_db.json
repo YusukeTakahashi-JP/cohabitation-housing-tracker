@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-19T15:00:00+09:00",
+    "updated_at": "2026-11-19T22:45:00+09:00",
     "version": "1.0.0",
     "requirements_summary": {
       "target_move_in": "2027年1月〜2月上旬（12月申込・契約可）",
@@ -58,7 +58,7 @@
       "google_rating": 4.9,
       "google_reviews": 1105,
       "contact_method": "Webフォーム（通常メアド）",
-      "contact_status": "図面・見積提示済（2件）",
+      "contact_status": "図面・見積提示済（2件）・追加提案依頼済",
       "master_rank": "S",
       "eval_no_call": "⭕遵守",
       "eval_no_visit_push": "⭕図面先行",
@@ -66,7 +66,7 @@
       "eval_fee_level": "◎0円〜1.1ヶ月（不要オプション無）",
       "eval_proposal_quality": 5,
       "proposal_count": 2,
-      "memo": "11/18 10:54に八木様より返信。電話・来店強要一切なし。初回からマイソク2件＋初期費用概算見積書2件＋管理会社・管理形態まで完璧に回答。『レグノ・フォレスタ306』では仲介手数料0円（無料）を提示。他社で見つけた物件の持ち込み・相見積もり先としても最有力候補。"
+      "memo": "11/18 10:54に八木様より返信。電話・来店強要一切なし。初回からマイソク2件＋初期費用概算見積書2件＋管理会社・管理形態まで完璧に回答。『レグノ・フォレスタ306』では仲介手数料0円（無料）を提示。他社で見つけた物件の持ち込み・相見積もり先としても最有力候補。 11/19 マスターから返信（告知事項等の確認＋地域おすすめ・条件緩和の追加提案を依頼）。"
     },
     {
       "id": "townhousing-monnaka",
@@ -162,7 +162,7 @@
       "google_rating": 4.9,
       "google_reviews": 837,
       "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_status": "フォーム再送待ち（先方サーバー停止中）",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -170,7 +170,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。水曜定休明けの返信待ち。"
+      "memo": "11/18深夜に都内版BCCで送信済。水曜定休明けの返信待ち。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 夜、kinshicho-cjs.com のサーバーが接続拒否で全ページ表示不可。後日再送。"
     },
     {
       "id": "lotus-link-tsukishima",
@@ -182,13 +182,13 @@
       "agent_name": "返信待ち",
       "email": "tsukishima@lotus-link.co.jp",
       "phone": "03-3531-4461",
-      "form_url": "https://www.lotus-link.co.jp/",
+      "form_url": "https://www.lotus-link.co.jp/contact/",
       "website_url": "https://www.lotus-link.co.jp/",
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJn9krTXCJGGAROIHaChREuSg",
       "google_rating": 4.8,
       "google_reviews": 617,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム再送済（11/19）・受付確認済",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -196,7 +196,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 22:09 フォーム再送（3,000バイト制限のため本文を短く修正して送信）。ielove-systemから受付確認メールあり。"
     },
     {
       "id": "lotus-ap-tsukishima",
@@ -213,8 +213,8 @@
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-WhtPLuJGGARxGSEMlko5Ng",
       "google_rating": 4.9,
       "google_reviews": 477,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム送信済（本文なし）・受付確認済",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -222,7 +222,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 実フォーム確認：本文（条件）を書く欄がなく携帯番号必須。同系列のロータスリンクで代替する方針。 11/19 22:10 フォーム送信（本文欄なしのため要望チェックのみ）。受付確認メールあり。担当者から返信が来たら希望条件をメールで送る。"
     },
     {
       "id": "heya-ichiba-ueno",
@@ -234,13 +234,13 @@
       "agent_name": "返信待ち",
       "email": "ueno@heya-ichiba.jp",
       "phone": "03-5818-8387",
-      "form_url": "https://www.heyaichiba.jp/contact/edit/",
+      "form_url": "https://www.heyaichiba.jp/contact/",
       "website_url": "https://www.heyaichiba.jp/",
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJvdFJ8h-MGGAR5dEtJQmT7Vg",
       "google_rating": 4.8,
       "google_reviews": 352,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム再送済（11/19・完全版）・受付確認済",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -248,7 +248,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 22:13 フォームから完全版で再送。受付確認メールあり。"
     },
     {
       "id": "liverich-kinshicho",
@@ -266,7 +266,7 @@
       "google_rating": 4.9,
       "google_reviews": 336,
       "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_status": "フォーム再送待ち（サイトメンテナンス中）",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -274,7 +274,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 夜、フォームがサイトメンテナンス中で送信できず。後日再送。"
     },
     {
       "id": "air-ginza",
@@ -286,13 +286,13 @@
       "agent_name": "返信待ち",
       "email": "ginza@air-group.ne.jp",
       "phone": "0120-964-838",
-      "form_url": "https://www.air-home.jp/contact/",
+      "form_url": "https://www.air-home.jp/inq/",
       "website_url": "https://www.air-home.jp/m/shop/air_ginza.html",
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJNdgdleOLGGARkndNm0q97Zc",
       "google_rating": 4.8,
       "google_reviews": 302,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム再送済（11/19）・受付確認済",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -300,7 +300,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 22:15 フォーム再送（メールエイリアス不可のため通常アドレスで送信）。完了通知＋銀座店から定型メールあり。"
     },
     {
       "id": "create-kinshicho",
@@ -312,13 +312,13 @@
       "agent_name": "返信待ち",
       "email": "kinsichou@create-home.co.jp",
       "phone": "03-5611-6360",
-      "form_url": "https://www.air-home.jp/contact/",
+      "form_url": "https://www.air-home.jp/inq/",
       "website_url": "https://www.air-home.jp/shop/create_kinshicho.html",
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8yPY95OJGGARdgzE6UwSv4c",
       "google_rating": 4.5,
       "google_reviews": 252,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム再送済（11/19）・受付確認済",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -326,7 +326,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 22:16 フォーム再送（通常アドレス）。完了通知＋定型メール（来店誘導あり）。"
     },
     {
       "id": "maemuki-kanda",
@@ -343,8 +343,8 @@
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJg4bPQAGMGGARg-7hiGItBwA",
       "google_rating": 4.9,
       "google_reviews": 244,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム再送済（11/19）・受付確認メール未着",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -352,7 +352,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。清澄白河・神田拠点。"
+      "memo": "11/18深夜に都内版BCCで送信済。清澄白河・神田拠点。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 フォーム送信したが、受付確認メールは届いていない（自動返信がない仕様の可能性）。"
     },
     {
       "id": "apaman-monnaka",
@@ -364,13 +364,13 @@
       "agent_name": "返信待ち",
       "email": "monzennakachoekimae@apamanshop-fc.com",
       "phone": "03-5621-1700",
-      "form_url": "https://www.apple-apaman.co.jp/contact/",
+      "form_url": "https://smoothcontact.jp/front/output/7f0000012ea46a71d63837596592f21",
       "website_url": "https://www.apple-apaman.co.jp/shoptokyo/monzennakachoekimae/",
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-3TiHBiJGGAROuCffyUhK-w",
       "google_rating": 4.8,
       "google_reviews": 108,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム送信済・本文途中切れ（先方返信待ち→返信時に条件をメール送付）",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -378,7 +378,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 確認：店舗専用フォーム（smoothcontact、本文400字＋備考200字）を使用。短縮版で再送予定。 11/19 22:19 店舗フォームから送信。受付確認メールの控えを見ると、本文は「入居者：2名（私＋婚約者 ※結婚を前提とした同棲」で切れており（400字制限）、家賃・エリア等の必須条件が先方に届いていない。 11/19 マスター判断：再送せず先方の返信を待ち、返信が来たら希望条件の全文をメールで送る。"
     },
     {
       "id": "linkroom-monnaka",
@@ -395,8 +395,8 @@
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJAzBLpDeJGGAR5ILFB_r_IB0",
       "google_rating": 4.6,
       "google_reviews": 106,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム再送済（11/19）・受付確認済",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -404,7 +404,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 22:21 フォーム再送。受付確認メールあり。"
     },
     {
       "id": "n-asset-mizonokuchi",
@@ -422,7 +422,7 @@
       "google_rating": 4.8,
       "google_reviews": 1164,
       "contact_method": "Webフォーム",
-      "contact_status": "図面・見積提示済（1件）",
+      "contact_status": "図面・見積提示済（1件）・追加提案依頼済",
       "master_rank": "A",
       "eval_no_call": "⭕遵守",
       "eval_no_visit_push": "⭕図面先行（定型フッターに来店予約リンクのみ）",
@@ -430,7 +430,7 @@
       "eval_fee_level": "○仲介1.1ヶ月だが任意オプション0円計上",
       "eval_proposal_quality": 3,
       "proposal_count": 1,
-      "memo": "高津区・溝の口エリア最大手の賃貸管理・仲介会社（口コミ1,164件・★4.8）。水曜定休日のため11/19(木)10時以降の担当者返信待ち。 11/19 12:37に浦野美月様（入社1年目）から返信。「条件をすべて満たす物件はない」と正直に伝えたうえで、築年数超過・リフォーム済の『リビオン梶ヶ谷202』をマイソク＋初期費用見積書付きで提案。任意オプションを0円で計上しており見積りが良心的。"
+      "memo": "高津区・溝の口エリア最大手の賃貸管理・仲介会社（口コミ1,164件・★4.8）。水曜定休日のため11/19(木)10時以降の担当者返信待ち。 11/19 12:37に浦野美月様（入社1年目）から返信。「条件をすべて満たす物件はない」と正直に伝えたうえで、築年数超過・リフォーム済の『リビオン梶ヶ谷202』をマイソク＋初期費用見積書付きで提案。任意オプションを0円で計上しており見積りが良心的。 11/19 マスターから返信（洗濯機置場・サポート任意か・告知事項＋地域おすすめ・条件緩和の追加提案を依頼）。"
     },
     {
       "id": "stones-mizonokuchi",
@@ -442,13 +442,13 @@
       "agent_name": "返信待ち",
       "email": "press@stone-s.co.jp",
       "phone": "044-829-1281",
-      "form_url": "https://mizonokuchi.stone-s.co.jp/contact-all/",
+      "form_url": "https://mizonokuchi.stone-s.co.jp/contact-o/",
       "website_url": "https://mizonokuchi.stone-s.co.jp/",
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3Z2E8In5GGAR0F3a0s3oM1A",
       "google_rating": 4.8,
       "google_reviews": 575,
-      "contact_method": "Webフォーム",
-      "contact_status": "自動受付・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム再送済（11/19）・受付確認メールなし（Googleフォーム）",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -456,7 +456,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "溝の口で口コミ575件・★4.8の有力賃貸仲介。11/18深夜にフォーム送信・自動受付確認済。"
+      "memo": "溝の口で口コミ575件・★4.8の有力賃貸仲介。11/18深夜にフォーム送信・自動受付確認済。 11/19 お部屋探しフォーム（Googleフォーム）から再送。Googleフォームは控えメールが出ない設定のため受付確認メールはなし。"
     },
     {
       "id": "townhousing-mizonokuchi",
@@ -474,7 +474,7 @@
       "google_rating": 4.8,
       "google_reviews": 273,
       "contact_method": "Webフォーム",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_status": "見送り（門前仲町店で依頼済）",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -482,7 +482,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "門前仲町店と同様、フォームからメール連絡依頼を送信済。"
+      "memo": "門前仲町店と同様、フォームからメール連絡依頼を送信済。 門前仲町店ではフォーム送信直後に noreply@townhousing.co.jp から受付確認メールが届いたが、溝の口店分は確認メールが見当たらない。フォーム送信が完了していない可能性。 11/19 確認：フォームの送信方式がGETで本文がURLに入るため、長文だと414エラーで失敗する。短縮版で再送予定。 11/19 マスター判断：タウンハウジングは門前仲町店（佐藤様）に詳細条件を依頼済のため、溝の口店への再送は一旦見送り。"
     },
     {
       "id": "kosugi-mizonokuchi",
@@ -500,7 +500,7 @@
       "google_rating": 4.1,
       "google_reviews": 45,
       "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_status": "除外（実在確認できず）",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -508,7 +508,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "川崎市最大級の管理戸数を持つ老舗管理会社。11/18深夜に神奈川版BCCで送信済。"
+      "memo": "川崎市最大級の管理戸数を持つ老舗管理会社。11/18深夜に神奈川版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 確認：kosugi-fudousan.com はドメインが存在せず、04.34ディレクトリにも記載なし。BCC送信先アドレスも実在不明のため送信対象から除外。"
     },
     {
       "id": "spaceplan-mizonokuchi",
@@ -520,13 +520,13 @@
       "agent_name": "返信待ち",
       "email": "info@spaceplan.co.jp",
       "phone": "044-833-8800",
-      "form_url": "https://www.spaceplan.co.jp/",
+      "form_url": "https://www.spaceplan.jp/contact/",
       "website_url": "https://www.spaceplan.co.jp/",
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJm9y95Yn5GGARx9Y6y7u5p1E",
       "google_rating": 4.5,
       "google_reviews": 38,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム再送済（11/19）・受付確認メール未着",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -534,25 +534,25 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "溝の口地元の管理・仲介会社。11/18深夜に神奈川版BCCで送信済。"
+      "memo": "溝の口地元の管理・仲介会社。11/18深夜に神奈川版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 フォームから完全版で送信。受付確認メールはまだ届いていない。"
     },
     {
       "id": "housepad-mizonokuchi",
       "wave": "第1弾（送信済）",
       "area_group": "kanagawa",
-      "station": "溝の口",
+      "station": "綱島",
       "company_name": "株式会社ハウスパッド",
-      "branch_name": "本店（溝の口）",
+      "branch_name": "綱島店（溝の口店なし）",
       "agent_name": "返信待ち",
       "email": "info@housepad.co.jp",
       "phone": "044-811-1611",
-      "form_url": "https://www.housepad.co.jp/",
+      "form_url": "https://www.housepad.co.jp/karitai/",
       "website_url": "https://www.housepad.co.jp/",
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJp8x75Yn5GGARt4Z8z6w4q2I",
       "google_rating": 4.3,
       "google_reviews": 22,
-      "contact_method": "BCCメール",
-      "contact_status": "送信済・木曜営業待ち",
+      "contact_method": "Webフォーム（11/19再送）",
+      "contact_status": "フォーム再送済（11/19・短縮版）・受付確認済",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -560,7 +560,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "高津区・宮前区の地元賃貸管理会社。11/18深夜に神奈川版BCCで送信済。"
+      "memo": "高津区・宮前区の地元賃貸管理会社。11/18深夜に神奈川版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 確認：ハウスパッドは綱島・菊名の会社で溝の口店は確認できず（info@housepad.co.jp は綱島店窓口）。綱島エリア枠として借りたい方フォームから再送予定。 11/19 22:28 借りたい方フォームから短縮版で送信。e-bukken経由で受付確認メールあり。"
     },
     {
       "id": "minimini-monnaka",
@@ -1264,7 +1264,7 @@
       "direction": "INBOUND",
       "subject": "お問い合わせありがとうございます。不動産会社スタートラインです。",
       "summary": "八木佳奈江様より『ハーベストヒルズ溝の口1（506）』『レグノ・フォレスタ（306）』のマイソク＆初期費用見積書PDF2件＋管理会社・管理形態の回答が到着。",
-      "action_status": "図面・見積取込済（追加質問可能）"
+      "action_status": "11/19 マスター返信済（地域おすすめ・条件緩和の追加提案を依頼）・追加提案待ち"
     },
     {
       "gmail_message_id": "1a1ed4e5204cc75f",
@@ -1327,7 +1327,7 @@
       "direction": "INBOUND",
       "subject": "【新着メッセージ】高橋 優輔様へメッセージがあります",
       "summary": "浦野美月様から『リビオン梶ヶ谷202』（3LDK・70㎡・16.6万円・梶が谷徒歩4分・築31年リフォーム済）のマイソク＋初期費用見積書（75.1万円）が到着。",
-      "action_status": "図面・見積取込済（返信要否はマスター判断）"
+      "action_status": "11/19 マスター返信済（地域おすすめ・条件緩和の追加提案を依頼）・追加提案待ち"
     },
     {
       "gmail_message_id": "1a1f136aaeddb1b5",
@@ -1346,6 +1346,78 @@
       "subject": "【お部屋探し】昨日、お問い合わせいただいた件につきまして",
       "summary": "定型の追客メール（来店・電話・オンライン相談・LINEへの誘導）。図面添付なし、11/18の依頼への個別回答なし。",
       "action_status": "様子見（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f3ed12e2fecb4",
+      "agency_id": "lotus-link-tsukishima",
+      "received_at": "2026-11-19 22:09",
+      "direction": "INBOUND",
+      "subject": "お問い合わせの確認 : info@lotus-link.co.jp",
+      "summary": "フォーム受付の自動確認メール",
+      "action_status": "受付確認（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f3ee7009e95b0",
+      "agency_id": "lotus-ap-tsukishima",
+      "received_at": "2026-11-19 22:10",
+      "direction": "INBOUND",
+      "subject": "お問い合わせの確認 : info@lotus-ap.co.jp",
+      "summary": "フォーム受付の自動確認メール",
+      "action_status": "受付確認（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f3f0767366bb9",
+      "agency_id": "heya-ichiba-ueno",
+      "received_at": "2026-11-19 22:13",
+      "direction": "INBOUND",
+      "subject": "お問い合わせの確認 : ueno@heya-ichiba.jp",
+      "summary": "フォーム受付の自動確認メール",
+      "action_status": "受付確認（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f3f2c433047f0",
+      "agency_id": "air-ginza",
+      "received_at": "2026-11-19 22:15",
+      "direction": "INBOUND",
+      "subject": "お問い合わせありがとうございます。　AIR銀座店 (LINE対応店)",
+      "summary": "定型メール（希望条件の一言返信・来社予約・LINEへの誘導）",
+      "action_status": "受付確認（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f3f3711e9b4bf",
+      "agency_id": "create-kinshicho",
+      "received_at": "2026-11-19 22:16",
+      "direction": "INBOUND",
+      "subject": "高橋 優輔様 お部屋のお問い合わせありがとうございます",
+      "summary": "定型メール（来店誘導）",
+      "action_status": "受付確認（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f3f68caeec13e",
+      "agency_id": "apaman-monnaka",
+      "received_at": "2026-11-19 22:19",
+      "direction": "INBOUND",
+      "subject": "お問合せありがとうございます",
+      "summary": "受付確認。控えの本文が400字で途中切れ（必須条件が未達）",
+      "action_status": "受付確認（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f3f7c5e13023d",
+      "agency_id": "linkroom-monnaka",
+      "received_at": "2026-11-19 22:21",
+      "direction": "INBOUND",
+      "subject": "お問い合わせの確認 : info-cp@linkroom.co.jp",
+      "summary": "フォーム受付の自動確認メール",
+      "action_status": "受付確認（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f3feb85cd311c",
+      "agency_id": "housepad-mizonokuchi",
+      "received_at": "2026-11-19 22:28",
+      "direction": "INBOUND",
+      "subject": "【株式会社ハウスパッド】高橋優輔様 物件のお問い合わせありがとうございます。",
+      "summary": "フォーム受付の自動確認メール",
+      "action_status": "受付確認（返信不要）"
     }
   ]
 }
