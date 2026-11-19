@@ -232,12 +232,16 @@ function renderPropertyWorkspace() {
   const labelBtn1 = hasMaisokuPdf ? '🖼️ 1. 募集図面（マイソク）' : '📐 1. 間取り図';
   const labelBtn2 = hasMaisokuPdf ? '🧾 2. 初期費用概算見積書' : '🏢 2. 建物外観';
 
+  // ok: true = ⭕ / 'warn' = ⚠️（緩和・例外扱い） / false = ❌
   const checkPill = (label, ok, val) => `
-    <div class="px-2.5 py-1.5 rounded-lg border ${ok ? 'bg-emerald-50/70 border-emerald-200 text-emerald-950' : 'bg-rose-50 border-rose-300 text-rose-900'} flex items-center justify-between text-xs">
+    <div class="px-2.5 py-1.5 rounded-lg border ${ok === 'warn' ? 'bg-amber-50 border-amber-300 text-amber-950' : ok ? 'bg-emerald-50/70 border-emerald-200 text-emerald-950' : 'bg-rose-50 border-rose-300 text-rose-900'} flex items-center justify-between text-xs">
       <span class="text-slate-500 text-[11px]">${label}</span>
-      <span class="font-extrabold">${ok ? '⭕' : '❌'} ${val}</span>
+      <span class="font-extrabold">${ok === 'warn' ? '⚠️' : ok ? '⭕' : '❌'} ${val}</span>
     </div>
   `;
+  // 築年数: 25年以内=⭕ / 26〜30年=⚠️緩和 / 30年超はリフォーム済みなら⚠️例外、それ以外❌（03.13 2.1）
+  const ageCheck = p.age_years <= 25 ? true : (p.age_years <= 30 || p.renovated) ? 'warn' : false;
+  const ageLabel = '築' + p.age_years + '年' + (p.age_years > 30 && p.renovated ? '(リフォーム済)' : '');
 
   // Build Right Sub-Tab Content
   let rightTabHtml = '';
@@ -278,7 +282,7 @@ function renderPropertyWorkspace() {
           ${checkPill('家賃≦17万', p.total_monthly_yen <= 170000, man(p.total_monthly_yen) + '円')}
           ${checkPill('面積≧50㎡', p.area_sqm >= 50, p.area_sqm + '㎡')}
           ${checkPill('RC/SRC造', p.structure.includes('RC'), p.structure)}
-          ${checkPill('築25年以内', p.age_years <= 25, '築' + p.age_years + '年')}
+          ${checkPill('築25年以内', ageCheck, ageLabel)}
           ${checkPill('徒歩≦15分', p.walk_minutes <= 15, '歩' + p.walk_minutes + '分')}
           ${checkPill('豊洲≦60分', p.commute_toyosu_min <= 60, '約' + p.commute_toyosu_min + '分')}
           ${checkPill('2階以上', !p.floor_info.startsWith('1階'), p.floor_info)}

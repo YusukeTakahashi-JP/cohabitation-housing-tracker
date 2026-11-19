@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-18T21:20:00+09:00",
+    "updated_at": "2026-11-19T15:00:00+09:00",
     "version": "1.0.0",
     "requirements_summary": {
       "target_move_in": "2027年1月〜2月上旬（12月申込・契約可）",
@@ -36,7 +36,9 @@
         "床暖房",
         "追い焚き風呂",
         "温水洗浄便座"
-      ]
+      ],
+      "relaxed_max_age_years": 30,
+      "age_exception": "築30年超は原則却下。ただし室内リフォーム済み（水回りの新規交換を含む）なら例外として緩和・要確認扱い"
     }
   },
   "agencies": [
@@ -108,7 +110,7 @@
       "google_rating": 4.8,
       "google_reviews": 578,
       "contact_method": "Webフォーム",
-      "contact_status": "図面送付依頼済・提案待ち",
+      "contact_status": "図面依頼済・自動追客メールのみ（提案待ち）",
       "master_rank": "B",
       "eval_no_call": "⭕遵守",
       "eval_no_visit_push": "⚠️来店予約・LINE誘導テンプレ",
@@ -116,7 +118,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18 11:20に初回定型メール（LINE追加・来店予約案内のみ、図面添付なし）を受信。11/18 21:09に「まずはメールでマイソク・見積書・管理形態をお送りください」と返信済み。これに図面付きで応じるかでAかCかを判定する。"
+      "memo": "11/18 11:20に初回定型メール（LINE追加・来店予約案内のみ、図面添付なし）を受信。11/18 21:09に「まずはメールでマイソク・見積書・管理形態をお送りください」と返信済み。これに図面付きで応じるかでAかCかを判定する。 11/19 12:02に定型の追客メールを受信（来店・電話・LINEへの誘導、図面添付なし）。11/18 21:09の図面依頼への個別回答はまだない。担当者から図面付きの返信がなければCランクへの引き下げを検討。"
     },
     {
       "id": "airenthome-monnaka",
@@ -125,7 +127,7 @@
       "station": "門前仲町",
       "company_name": "アイレントホーム株式会社",
       "branch_name": "門前仲町店",
-      "agent_name": "未割当（水曜定休）",
+      "agent_name": "田高 出帆",
       "email": "airenthome-monnaka_193zdq@rentersnet.jp",
       "phone": "03-5646-1020",
       "form_url": "https://monnaka.airenthome.co.jp/inquiry/index.php",
@@ -134,15 +136,15 @@
       "google_rating": 4.8,
       "google_reviews": 841,
       "contact_method": "Webフォーム（通常メアド）",
-      "contact_status": "自動受付・木曜営業待ち",
+      "contact_status": "担当者挨拶済・物件探索中",
       "master_rank": "PENDING",
-      "eval_no_call": "未確認",
-      "eval_no_visit_push": "未確認",
-      "eval_speed": 0,
+      "eval_no_call": "⭕遵守",
+      "eval_no_visit_push": "⭕（現時点で来店誘導なし）",
+      "eval_speed": 4,
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に自動返信メール受信。水曜定休日のため11/19(木)以降の担当者返信待ち。旭化成ヘーベルメゾン・大和ハウスD-roomの特約代理店。"
+      "memo": "11/18深夜に自動返信メール受信。水曜定休日のため11/19(木)以降の担当者返信待ち。旭化成ヘーベルメゾン・大和ハウスD-roomの特約代理店。 11/19 9:30に田高出帆様から挨拶メール。「ご条件に沿った物件をお探しいたします」とのことで提案待ち。"
     },
     {
       "id": "cjs-kinshicho",
@@ -411,8 +413,8 @@
       "station": "溝の口",
       "company_name": "株式会社エヌアセット（N-ASSET）",
       "branch_name": "溝の口南口店（本店）",
-      "agent_name": "返信待ち（水曜定休）",
-      "email": "mizo@n-asset.com",
+      "agent_name": "浦野 美月",
+      "email": "nasset-minami@cloud.nomad-a.jp",
       "phone": "044-873-7188",
       "form_url": "https://www.n-asset.com/contact/",
       "website_url": "https://www.n-asset.com/",
@@ -420,15 +422,15 @@
       "google_rating": 4.8,
       "google_reviews": 1164,
       "contact_method": "Webフォーム",
-      "contact_status": "自動受付・木曜営業待ち",
-      "master_rank": "PENDING",
-      "eval_no_call": "未確認",
-      "eval_no_visit_push": "未確認",
-      "eval_speed": 0,
-      "eval_fee_level": "未確認",
-      "eval_proposal_quality": 0,
-      "proposal_count": 0,
-      "memo": "高津区・溝の口エリア最大手の賃貸管理・仲介会社（口コミ1,164件・★4.8）。水曜定休日のため11/19(木)10時以降の担当者返信待ち。"
+      "contact_status": "図面・見積提示済（1件）",
+      "master_rank": "A",
+      "eval_no_call": "⭕遵守",
+      "eval_no_visit_push": "⭕図面先行（定型フッターに来店予約リンクのみ）",
+      "eval_speed": 4,
+      "eval_fee_level": "○仲介1.1ヶ月だが任意オプション0円計上",
+      "eval_proposal_quality": 3,
+      "proposal_count": 1,
+      "memo": "高津区・溝の口エリア最大手の賃貸管理・仲介会社（口コミ1,164件・★4.8）。水曜定休日のため11/19(木)10時以降の担当者返信待ち。 11/19 12:37に浦野美月様（入社1年目）から返信。「条件をすべて満たす物件はない」と正直に伝えたうえで、築年数超過・リフォーム済の『リビオン梶ヶ谷202』をマイソク＋初期費用見積書付きで提案。任意オプションを0円で計上しており見積りが良心的。"
     },
     {
       "id": "stones-mizonokuchi",
@@ -682,7 +684,9 @@
       },
       "notes": "Yumi様がSUUMOで見つけた物件。スタートラインからマイソク＆見積書（78.1万円）到着済。溝の口特例枠の有力候補。",
       "maisoku_image": "harvest_hills_506_page1.png",
-      "estimate_image": "harvest_hills_506_page2.png"
+      "estimate_image": "harvest_hills_506_page2.png",
+      "renovated": false,
+      "renovation_detail": ""
     },
     {
       "id": "regno-foresta-306",
@@ -752,7 +756,9 @@
       },
       "notes": "板橋区ときわ台徒歩10分。仲介手数料0円で初期費用47.4万円と非常に安い。入居時期（家賃発生日）の交渉可否がカギ。",
       "maisoku_image": "regno_foresta_306_page1.png",
-      "estimate_image": "regno_foresta_306_page2.png"
+      "estimate_image": "regno_foresta_306_page2.png",
+      "renovated": false,
+      "renovation_detail": ""
     },
     {
       "id": "grande-richesse-mizonokuchi-202",
@@ -814,7 +820,9 @@
       "viewing_checklist": {},
       "notes": "Yumi様が11/16にメール共有。部屋は63㎡・築14年で非常に広いが、溝の口徒歩20分＆初期費用の上乗せオプションに注意。",
       "maisoku_image": "grande_richesse_202_img2.jpg",
-      "estimate_image": "grande_richesse_202_img1.jpg"
+      "estimate_image": "grande_richesse_202_img1.jpg",
+      "renovated": false,
+      "renovation_detail": ""
     },
     {
       "id": "kajigaya-3ldk-3f",
@@ -875,7 +883,9 @@
       "viewing_checklist": {},
       "notes": "Yumi様が11/16にメール共有。入居時期が2月下旬のためスケジュール的に厳しい。",
       "maisoku_image": "kajigaya_3ldk_3f_img2.jpg",
-      "estimate_image": "kajigaya_3ldk_3f_img1.jpg"
+      "estimate_image": "kajigaya_3ldk_3f_img1.jpg",
+      "renovated": false,
+      "renovation_detail": ""
     },
     {
       "id": "belk-kyodo-1-2f",
@@ -935,7 +945,9 @@
       "viewing_checklist": {},
       "notes": "Yumi様が11/17 22:11にメール共有。世田谷区経堂で築10年だが、41.6㎡（DK6.9畳）のため50㎡必須基準を満たさずNG。",
       "maisoku_image": "belk_kyodo_2f_img2.jpg",
-      "estimate_image": "belk_kyodo_2f_img1.jpg"
+      "estimate_image": "belk_kyodo_2f_img1.jpg",
+      "renovated": false,
+      "renovation_detail": ""
     },
     {
       "id": "win-hiyoshi-b-2f",
@@ -995,7 +1007,9 @@
       "viewing_checklist": {},
       "notes": "Yumi様が11/16にメール共有。築5年だが鉄骨造のためRC/SRC必須基準でNG。",
       "maisoku_image": "win_hiyoshi_b_2f_img2.jpg",
-      "estimate_image": "win_hiyoshi_b_2f_img1.jpg"
+      "estimate_image": "win_hiyoshi_b_2f_img1.jpg",
+      "renovated": false,
+      "renovation_detail": ""
     },
     {
       "id": "ayutaka-2-5f",
@@ -1056,7 +1070,88 @@
       "viewing_checklist": {},
       "notes": "Yumi様が11/16にメール共有。鉄骨造＋礼金2ヶ月＋宿河原駅のため見送り。",
       "maisoku_image": "ayutaka_2_5f_img2.jpg",
-      "estimate_image": "ayutaka_2_5f_img1.jpg"
+      "estimate_image": "ayutaka_2_5f_img1.jpg",
+      "renovated": false,
+      "renovation_detail": ""
+    },
+    {
+      "id": "livion-kajigaya-202",
+      "building_name": "リビオン梶ヶ谷",
+      "room_number": "202号室（2階）",
+      "source_type": "業者提案（マイソク・見積書有）",
+      "area_category": "神奈川その他",
+      "address": "神奈川県川崎市高津区末長1丁目15-11",
+      "station_info": "東急田園都市線「梶が谷」駅 徒歩4分 ／ JR南武線「武蔵溝ノ口」駅 徒歩10分",
+      "walk_minutes": 4,
+      "commute_toyosu_min": 47,
+      "rent_yen": 158000,
+      "management_fee_yen": 8000,
+      "total_monthly_yen": 166000,
+      "floor_plan": "3LDK",
+      "area_sqm": 70.0,
+      "layout_detail": "LDK 12.4畳 / 洋室 6.8畳 / 洋室 6.3畳 / 和室 6畳",
+      "structure": "RC造",
+      "built_date": "1995年3月",
+      "age_years": 31,
+      "floor_info": "2階",
+      "direction": "南",
+      "gas_type": "都市ガス",
+      "available_date": "相談（見積は2027/1/10契約開始想定）",
+      "management_info": "エヌアセット（代理）／ 24時間365日コールセンター",
+      "contract_terms": "普通借家2年 ／ 更新料：新賃料1ヶ月 ／ 敷金償却なし ／ 退去時エアコン内部洗浄・室内クリーニング借主負担 ／ 解約1ヶ月前予告",
+      "disclosure_notes": "特記：9歳未満の子どもの入居不可（建物全体の制限ではない旨の記載あり）。告知事項の有無は未確認",
+      "washer_pan_status": "洗面所内に室内洗濯機置場あり（防水パン寸法・ドラム式可否は要確認）",
+      "equipments": {
+        "bath_dryer": false,
+        "garbage_24h": null,
+        "floor_heating": false,
+        "reheating_bath": false,
+        "washlet": true,
+        "free_internet": true,
+        "auto_lock": true,
+        "delivery_box": true,
+        "counter_kitchen": false,
+        "roof_balcony": false
+      },
+      "rule_check_status": "RELAXED",
+      "fail_reasons": [
+        "⚠️ 築31年（1995年3月築）で築30年超だが、2026年11月に室内リフォーム済み（水回り・キッチン・エアコン新規交換）のため例外として検討対象（03.13 2.1）",
+        "⚠️ 梶が谷駅は03.13 4章の方針（田園都市線は溝の口まで、梶が谷以遠は原則除外）の境界ライン",
+        "⚠️ Tier1希望の浴室乾燥機がない／追い焚きなし"
+      ],
+      "ai_score": 68,
+      "ai_pros": [
+        "梶が谷駅徒歩4分・豊洲まで最短47分。駅近で通勤条件を楽にクリア",
+        "70㎡の3LDK（LDK12.4畳＋6.8・6.3・6畳）。条件の50㎡を大きく上回り、全居室6畳以上",
+        "総家賃16.6万円・初期費用見積75.1万円で、どちらも上限内。任意の付帯商品（害虫防除・ウイルスクリーニング・防カビ・消火キット）は最初から0円で計上されている",
+        "2026年11月にユニットバス・システムキッチン・洗面台・エアコン3台を新品に交換済み。RC造・南向き・オートロック・宅配ボックス・都市ガス・敷金償却なし",
+        "イッツコム光（600Mまで）が無料"
+      ],
+      "ai_cons": [
+        "築31年で、築年数の必須条件（25年以内）と緩和上限（30年以内）を超える",
+        "浴室乾燥機・追い焚きがない（Tier1希望を満たさない）",
+        "特記事項に『9歳未満の子どもの入居不可』とある。契約期間中に家族が増える可能性があるなら要注意",
+        "図面の写真はリフォーム前のもの。仕上がりは内見での確認が必要",
+        "契約開始日によっては初期費用が80万円を超える可能性があると担当者が明記"
+      ],
+      "master_rating": 0,
+      "partner_rating": 0,
+      "status": "候補（検討中）",
+      "suumo_url": "",
+      "viewing_checklist": {
+        "washer_width_mm": "",
+        "washer_depth_mm": "",
+        "washer_height_mm": "",
+        "soundproofing": "",
+        "safety_day_night": "",
+        "train_atmosphere": "",
+        "common_area_cleanliness": ""
+      },
+      "notes": "11/19 エヌアセット浦野様から提案。条件をすべて満たす物件はなく、築年数超過だがリフォーム済みとして紹介されたもの。 向きはマイソク間取り図の方位記号から判定（バルコニー側が南）。",
+      "maisoku_image": "livion_kajigaya_202_page1.png",
+      "estimate_image": "livion_kajigaya_202_page2.png",
+      "renovated": true,
+      "renovation_detail": "2026年11月 室内リフォーム：ユニットバス・システムキッチン・洗面台・シューズボックス・エアコン3台を新規交換"
     }
   ],
   "proposals": [
@@ -1134,6 +1229,31 @@
       "cost_audit_comment": "⚠️ SUUMO掲載店（エイブル武蔵小杉店）の備考欄に『消火剤・防災グッズ代 39,270円』『消毒(抗菌費) 25,300円』『入居者サポート費用 22,000円』（計86,570円）の付帯費用が載っており、そのまま契約すると約84.5万円で予算80万円を超過します。これら3項目（86,570円）をスタートラインやエヌアセット経由で外せば約75.9万円（80万円以内）に収まります。",
       "maisoku_pdf": "",
       "maisoku_page_count": 0
+    },
+    {
+      "id": "prop-nasset-livion-kajigaya-202",
+      "property_id": "livion-kajigaya-202",
+      "agency_id": "n-asset-mizonokuchi",
+      "gmail_message_id": "1a1f1e1b7c7dc4b4",
+      "proposed_date": "2026-11-19",
+      "assumed_start_date": "2027-01-10（1月分22日割＋共益費日割）",
+      "total_initial_cost_yen": 751306,
+      "breakdown": {
+        "deposit_yen": 158000,
+        "key_money_yen": 158000,
+        "brokerage_fee_yen": 173800,
+        "advance_rent_yen": 117806,
+        "guarantee_fee_yen": 83000,
+        "insurance_yen": 20000,
+        "key_exchange_yen": 27500,
+        "support_fee_yen": 13200,
+        "disinfection_fee_yen": 0,
+        "other_fee_yen": 0
+      },
+      "cuttable_amount_yen": 13200,
+      "cost_audit_comment": "⭕ 上限80万円以内（75.1万円）。任意の付帯商品4点（害虫防除・ウイルスクリーニング・浴室防カビ・消火キット、計約7.6万円）は最初から0円で計上されていて良心的。削減できる可能性があるのは『24時間安心サポート』13,200円（マイソクに必須の記載なし→任意か要確認）。仲介手数料1.1ヶ月（173,800円）は0.55ヶ月等への交渉余地あり。鍵交換27,500円は必須と明記。契約開始日を早めると前家賃が増え、80万円を超える可能性あり。保証はエポスカード保証（初回50%・月額1%=1,660円）。",
+      "maisoku_pdf": "livion_kajigaya_202.pdf",
+      "maisoku_page_count": 3
     }
   ],
   "email_logs": [
@@ -1199,6 +1319,33 @@
       "subject": "Returned Mail: 553 Sorry, maximum session time exceeds.",
       "summary": "hmonnaka@townhousing.co.jp 宛ての詳細条件返信（21:09送信）が先方メールサーバーで送信エラー。アドレスは正しく、一時的な受信障害と推定。",
       "action_status": "11/19 マスター手動再送済"
+    },
+    {
+      "gmail_message_id": "1a1f1e1b7c7dc4b4",
+      "agency_id": "n-asset-mizonokuchi",
+      "received_at": "2026-11-19 12:37",
+      "direction": "INBOUND",
+      "subject": "【新着メッセージ】高橋 優輔様へメッセージがあります",
+      "summary": "浦野美月様から『リビオン梶ヶ谷202』（3LDK・70㎡・16.6万円・梶が谷徒歩4分・築31年リフォーム済）のマイソク＋初期費用見積書（75.1万円）が到着。",
+      "action_status": "図面・見積取込済（返信要否はマスター判断）"
+    },
+    {
+      "gmail_message_id": "1a1f136aaeddb1b5",
+      "agency_id": "airenthome-monnaka",
+      "received_at": "2026-11-19 09:30",
+      "direction": "INBOUND",
+      "subject": "お問い合わせありがとうございます！【アイレントホーム株式会社 門前仲町店】",
+      "summary": "担当の田高出帆様から挨拶メール。条件に沿った物件を探すとのこと。",
+      "action_status": "提案待ち（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f1c1c16e2ded1",
+      "agency_id": "aeras-ochanomizu",
+      "received_at": "2026-11-19 12:02",
+      "direction": "INBOUND",
+      "subject": "【お部屋探し】昨日、お問い合わせいただいた件につきまして",
+      "summary": "定型の追客メール（来店・電話・オンライン相談・LINEへの誘導）。図面添付なし、11/18の依頼への個別回答なし。",
+      "action_status": "様子見（返信不要）"
     }
   ]
 }
