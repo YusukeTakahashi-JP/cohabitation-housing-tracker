@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-20T17:00:00+09:00",
+    "updated_at": "2026-11-20T18:00:00+09:00",
     "version": "1.0.0",
     "requirements_summary": {
       "target_move_in": "2027年1月〜2月上旬（12月申込・契約可）",
@@ -162,7 +162,7 @@
       "google_rating": 4.9,
       "google_reviews": 837,
       "contact_method": "Webフォーム（11/20再送）",
-      "contact_status": "フォーム再送済（11/20・中間版）",
+      "contact_status": "フォーム再送済・受付確認済（当日〜翌営業日に連絡予定）",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -170,7 +170,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。水曜定休明けの返信待ち。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 夜、kinshicho-cjs.com のサーバーが接続拒否で全ページ表示不可。後日再送。 11/20 サーバー復旧を確認、フォーム表示OK。 11/20 フォームから中間版（809字）で送信（+エイリアス不可のため通常アドレス、本文1,000字制限）。"
+      "memo": "11/18深夜に都内版BCCで送信済。水曜定休明けの返信待ち。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 夜、kinshicho-cjs.com のサーバーが接続拒否で全ページ表示不可。後日再送。 11/20 サーバー復旧を確認、フォーム表示OK。 11/20 フォームから中間版（809字）で送信（+エイリアス不可のため通常アドレス、本文1,000字制限）。 11/20 16:02 受付確認メールあり。控えでは「㎡」「①②③」が文字化け（?）していた。次回は「平米」「1. 2. 3.」表記を使う。"
     },
     {
       "id": "lotus-link-tsukishima",
@@ -283,8 +283,8 @@
       "station": "銀座",
       "company_name": "株式会社エーアイアール",
       "branch_name": "銀座店",
-      "agent_name": "返信待ち",
-      "email": "ginza@air-group.ne.jp",
+      "agent_name": "江口 綾",
+      "email": "air-ginza@cloud.nomad-a.jp",
       "phone": "0120-964-838",
       "form_url": "https://www.air-home.jp/inq/",
       "website_url": "https://www.air-home.jp/m/shop/air_ginza.html",
@@ -292,15 +292,15 @@
       "google_rating": 4.8,
       "google_reviews": 302,
       "contact_method": "Webフォーム（11/19再送）",
-      "contact_status": "フォーム再送済（11/19）・受付確認済",
+      "contact_status": "担当者返信あり・物件探索中",
       "master_rank": "PENDING",
-      "eval_no_call": "未確認",
-      "eval_no_visit_push": "未確認",
-      "eval_speed": 0,
+      "eval_no_call": "⭕遵守",
+      "eval_no_visit_push": "⭕メール対応を明言",
+      "eval_speed": 4,
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 22:15 フォーム再送（メールエイリアス不可のため通常アドレスで送信）。完了通知＋銀座店から定型メールあり。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 22:15 フォーム再送（メールエイリアス不可のため通常アドレスで送信）。完了通知＋銀座店から定型メールあり。 11/20 15:59 江口綾様から個別返信。条件を正確に把握し「図面・概算見積・管理形態・告知事項・洗濯機置場サイズを添えて提案、連絡はすべてメールで対応」と明言。好印象。"
     },
     {
       "id": "create-kinshicho",
@@ -361,8 +361,8 @@
       "station": "門前仲町",
       "company_name": "アパマンショップ（株式会社アップル）",
       "branch_name": "門前仲町駅前店",
-      "agent_name": "返信待ち",
-      "email": "monzennakachoekimae@apamanshop-fc.com",
+      "agent_name": "齋藤 凪帆",
+      "email": "apaman_monnaka@cloud.nomad-a.jp",
       "phone": "03-5621-1700",
       "form_url": "https://smoothcontact.jp/front/output/7f0000012ea46a71d63837596592f21",
       "website_url": "https://www.apple-apaman.co.jp/shoptokyo/monzennakachoekimae/",
@@ -370,15 +370,15 @@
       "google_rating": 4.8,
       "google_reviews": 108,
       "contact_method": "Webフォーム（11/19再送）",
-      "contact_status": "フォーム送信済・本文途中切れ（先方返信待ち→返信時に条件をメール送付）",
+      "contact_status": "条件全文をメール送付済・提案待ち",
       "master_rank": "PENDING",
-      "eval_no_call": "未確認",
+      "eval_no_call": "⭕遵守",
       "eval_no_visit_push": "未確認",
-      "eval_speed": 0,
+      "eval_speed": 4,
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 確認：店舗専用フォーム（smoothcontact、本文400字＋備考200字）を使用。短縮版で再送予定。 11/19 22:19 店舗フォームから送信。受付確認メールの控えを見ると、本文は「入居者：2名（私＋婚約者 ※結婚を前提とした同棲」で切れており（400字制限）、家賃・エリア等の必須条件が先方に届いていない。 11/19 マスター判断：再送せず先方の返信を待ち、返信が来たら希望条件の全文をメールで送る。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 確認：店舗専用フォーム（smoothcontact、本文400字＋備考200字）を使用。短縮版で再送予定。 11/19 22:19 店舗フォームから送信。受付確認メールの控えを見ると、本文は「入居者：2名（私＋婚約者 ※結婚を前提とした同棲」で切れており（400字制限）、家賃・エリア等の必須条件が先方に届いていない。 11/19 マスター判断：再送せず先方の返信を待ち、返信が来たら希望条件の全文をメールで送る。 11/20 12:40 齋藤凪帆様から「予算・エリア・条件の詳細を教えてほしい」と連絡（LINE・条件登録・来店予約の案内つき定型、同内容の再送あり）。条件全文の返信下書きを作成。 11/20 マスターから条件全文を返信。"
     },
     {
       "id": "linkroom-monnaka",
@@ -1605,6 +1605,33 @@
       "subject": "Fwd: フローラ ケイプ 403号室のご案内（Yumi様転送）",
       "summary": "Yumi様がシャーメゾン掲載のフローラケイプ403に問い合わせ、イチイ池袋店から募集中との回答を転送。",
       "action_status": "物件登録済"
+    },
+    {
+      "gmail_message_id": "1a1f70b0885e18a4",
+      "agency_id": "apaman-monnaka",
+      "received_at": "2026-11-20 12:40",
+      "direction": "INBOUND",
+      "subject": "高橋 優輔様 LINEで簡単お部屋探し「アパマンショップ門前仲町駅前店」",
+      "summary": "齋藤様から条件の詳細確認依頼（フォーム本文が途中で切れていたため）。",
+      "action_status": "11/20 マスター返信済（条件全文をメール送付）・提案待ち"
+    },
+    {
+      "gmail_message_id": "1a1f7c0afd2812e7",
+      "agency_id": "air-ginza",
+      "received_at": "2026-11-20 15:59",
+      "direction": "INBOUND",
+      "subject": "高橋 優輔 様 【お部屋の件 AIR銀座店 江口 綾】",
+      "summary": "条件確認済み・図面と見積付きで順次提案・連絡はすべてメールで対応との返信。",
+      "action_status": "提案待ち（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f7c396fb00ee7",
+      "agency_id": "cjs-kinshicho",
+      "received_at": "2026-11-20 16:02",
+      "direction": "INBOUND",
+      "subject": "お問い合わせメール（賃貸住宅サービス錦糸町ギャラリー）",
+      "summary": "フォーム受付の自動確認。当日〜翌営業日に連絡予定。",
+      "action_status": "受付確認（返信不要）"
     }
   ]
 }
