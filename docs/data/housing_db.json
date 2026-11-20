@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-19T22:45:00+09:00",
+    "updated_at": "2026-11-20T16:00:00+09:00",
     "version": "1.0.0",
     "requirements_summary": {
       "target_move_in": "2027年1月〜2月上旬（12月申込・契約可）",
@@ -58,15 +58,15 @@
       "google_rating": 4.9,
       "google_reviews": 1105,
       "contact_method": "Webフォーム（通常メアド）",
-      "contact_status": "図面・見積提示済（2件）・追加提案依頼済",
+      "contact_status": "図面・見積提示済（3件）・追加提案待ち",
       "master_rank": "S",
       "eval_no_call": "⭕遵守",
       "eval_no_visit_push": "⭕図面先行",
       "eval_speed": 5,
       "eval_fee_level": "◎0円〜1.1ヶ月（不要オプション無）",
       "eval_proposal_quality": 5,
-      "proposal_count": 2,
-      "memo": "11/18 10:54に八木様より返信。電話・来店強要一切なし。初回からマイソク2件＋初期費用概算見積書2件＋管理会社・管理形態まで完璧に回答。『レグノ・フォレスタ306』では仲介手数料0円（無料）を提示。他社で見つけた物件の持ち込み・相見積もり先としても最有力候補。 11/19 マスターから返信（告知事項等の確認＋地域おすすめ・条件緩和の追加提案を依頼）。"
+      "proposal_count": 3,
+      "memo": "11/18 10:54に八木様より返信。電話・来店強要一切なし。初回からマイソク2件＋初期費用概算見積書2件＋管理会社・管理形態まで完璧に回答。『レグノ・フォレスタ306』では仲介手数料0円（無料）を提示。他社で見つけた物件の持ち込み・相見積もり先としても最有力候補。 11/19 マスターから返信（告知事項等の確認＋地域おすすめ・条件緩和の追加提案を依頼）。 11/20 11:58 八木様から返信：両物件とも告知なし。ハーベストヒルズは紹介経由の方が優先扱い（未申込）、レグノは入居日相談不可・DENエアコン不明。おすすめエリアは有楽町線和光市方面・千葉で、必須エリア外として参考に氷川台（練馬区）のJパレス桜台を提示。必須エリアでは他に目ぼしい物件なし。 11/20 八木様への返信は保留（他社の提案を見てから判断）。"
     },
     {
       "id": "townhousing-monnaka",
@@ -161,8 +161,8 @@
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJUcK-KyiJGGARAVjZBD38hrk",
       "google_rating": 4.9,
       "google_reviews": 837,
-      "contact_method": "BCCメール",
-      "contact_status": "フォーム再送待ち（先方サーバー停止中）",
+      "contact_method": "Webフォーム（11/20再送）",
+      "contact_status": "フォーム再送済（11/20・中間版）",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -170,7 +170,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。水曜定休明けの返信待ち。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 夜、kinshicho-cjs.com のサーバーが接続拒否で全ページ表示不可。後日再送。"
+      "memo": "11/18深夜に都内版BCCで送信済。水曜定休明けの返信待ち。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 夜、kinshicho-cjs.com のサーバーが接続拒否で全ページ表示不可。後日再送。 11/20 サーバー復旧を確認、フォーム表示OK。 11/20 フォームから中間版（809字）で送信（+エイリアス不可のため通常アドレス、本文1,000字制限）。"
     },
     {
       "id": "lotus-link-tsukishima",
@@ -204,25 +204,25 @@
       "area_group": "tokyo",
       "station": "月島・豊洲",
       "company_name": "センチュリー21 ロータスアセットパートナーズ",
-      "branch_name": "月島店・豊洲駅前店",
-      "agent_name": "返信待ち",
-      "email": "info@lotus-ap.co.jp",
-      "phone": "03-3531-4430",
+      "branch_name": "センチュリー21 みんなのへや月島ミッドタワーグランド店",
+      "agent_name": "山越 虹汰",
+      "email": "century21_midtowergrand@cloud.nomad-a.jp",
+      "phone": "03-3533-4430",
       "form_url": "https://www.lotus-ap.co.jp/contact/edit/",
       "website_url": "https://www.lotus-ap.co.jp/",
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-WhtPLuJGGARxGSEMlko5Ng",
       "google_rating": 4.9,
       "google_reviews": 477,
       "contact_method": "Webフォーム（11/19再送）",
-      "contact_status": "フォーム送信済（本文なし）・受付確認済",
+      "contact_status": "条件をメール送付済・提案待ち",
       "master_rank": "PENDING",
-      "eval_no_call": "未確認",
+      "eval_no_call": "⚠️電話あり（フォームに本文欄がなく条件不明のため）",
       "eval_no_visit_push": "未確認",
-      "eval_speed": 0,
+      "eval_speed": 5,
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 実フォーム確認：本文（条件）を書く欄がなく携帯番号必須。同系列のロータスリンクで代替する方針。 11/19 22:10 フォーム送信（本文欄なしのため要望チェックのみ）。受付確認メールあり。担当者から返信が来たら希望条件をメールで送る。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 実フォーム確認：本文（条件）を書く欄がなく携帯番号必須。同系列のロータスリンクで代替する方針。 11/19 22:10 フォーム送信（本文欄なしのため要望チェックのみ）。受付確認メールあり。担当者から返信が来たら希望条件をメールで送る。 11/20 山越虹汰様から不在着信（フォームに物件・条件の記載がなかったため）。13:04にメールでも「ご状況を詳しく伺いたい・電話可能なタイミングは？」と連絡。条件をメールで送れば判断できる。 11/20 マスターから山越様へ、電話不可・すべてメールでと伝えたうえで条件全文を送付。"
     },
     {
       "id": "heya-ichiba-ueno",
@@ -265,8 +265,8 @@
       "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJYYhLMl-JGGARbNx6sw28NOk",
       "google_rating": 4.9,
       "google_reviews": 336,
-      "contact_method": "BCCメール",
-      "contact_status": "フォーム再送待ち（サイトメンテナンス中）",
+      "contact_method": "直通メール（1社宛て）",
+      "contact_status": "直通メールで個別送信済（11/20）・返信待ち",
       "master_rank": "PENDING",
       "eval_no_call": "未確認",
       "eval_no_visit_push": "未確認",
@@ -274,7 +274,7 @@
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 夜、フォームがサイトメンテナンス中で送信できず。後日再送。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 夜、フォームがサイトメンテナンス中で送信できず。後日再送。 11/20 フォーム表示OK。/contact/ は物件指定型（「指定した物件は存在しません」と出るが入力欄は使える）。物件を指定しない一般問い合わせ窓口は来店予約しかない。送信できない場合は直通メールで個別に送る。 11/20 フォーム入力後、送信時に「サイトメンテナンス中」と表示され送信できず（物件指定なしの送信を受け付けない可能性）。直通メールで1社宛てに送る方針。 11/20 フォームが送信不可のため、kinshicho@live-rich.co.jp 宛てに1社だけで都内版完全版を送信。"
     },
     {
       "id": "air-ginza",
@@ -318,15 +318,15 @@
       "google_rating": 4.5,
       "google_reviews": 252,
       "contact_method": "Webフォーム（11/19再送）",
-      "contact_status": "フォーム再送済（11/19）・受付確認済",
+      "contact_status": "担当者返信あり・物件探索中",
       "master_rank": "PENDING",
-      "eval_no_call": "未確認",
+      "eval_no_call": "⭕遵守",
       "eval_no_visit_push": "未確認",
-      "eval_speed": 0,
+      "eval_speed": 4,
       "eval_fee_level": "未確認",
       "eval_proposal_quality": 0,
       "proposal_count": 0,
-      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 22:16 フォーム再送（通常アドレス）。完了通知＋定型メール（来店誘導あり）。"
+      "memo": "11/18深夜に都内版BCCで送信済。 11/19(木)19:38時点で返信・不達通知ともになし。BCC一斉送信が迷惑メール判定または未対応の可能性があるため、問い合わせフォームから再送予定。 11/19 22:16 フォーム再送（通常アドレス）。完了通知＋定型メール（来店誘導あり）。 11/20 9:43 「ご条件ありがとうございます。良いものがあればお送りします」と返信（同内容の再送が12:xxにもう1通）。"
     },
     {
       "id": "maemuki-kanda",
@@ -641,7 +641,7 @@
       "available_date": "2026年12月下旬（12/31契約開始想定）",
       "management_info": "大東建託パートナーズ（大東建設不動産）／ 日勤管理",
       "contract_terms": "普通借家2年 ／ 更新料：新賃料1ヶ月＋更新事務手数料0.5ヶ月 ／ 退去時敷引1ヶ月",
-      "disclosure_notes": "スタートライン八木様へ告知事項有無を確認中（図面上は記載なし）",
+      "disclosure_notes": "告知事項なし（11/20 スタートライン八木様回答）",
       "washer_pan_status": "要現地採寸（独立洗面所内に室内洗濯機置場あり）",
       "equipments": {
         "bath_dryer": true,
@@ -667,7 +667,8 @@
       ],
       "ai_cons": [
         "溝の口駅から徒歩15分（南武線・津田山駅からは徒歩4分）。溝の口駅までの実際の徒歩ルート（坂の有無）は要確認",
-        "敷金1ヶ月が退去時に『敷引1ヶ月（償却）』となる契約条件。また更新時に新賃料1ヶ月＋更新事務手数料0.5ヶ月（計1.5ヶ月）がかかる"
+        "敷金1ヶ月が退去時に『敷引1ヶ月（償却）』となる契約条件。また更新時に新賃料1ヶ月＋更新事務手数料0.5ヶ月（計1.5ヶ月）がかかる",
+        "他の号室の入居者から紹介を受けた方が優先紹介の扱い（11/20時点で申込はまだ）。申し込むなら早めの判断が必要"
       ],
       "master_rating": 4,
       "partner_rating": 5,
@@ -682,7 +683,7 @@
         "train_atmosphere": "",
         "common_area_cleanliness": ""
       },
-      "notes": "Yumi様がSUUMOで見つけた物件。スタートラインからマイソク＆見積書（78.1万円）到着済。溝の口特例枠の有力候補。",
+      "notes": "Yumi様がSUUMOで見つけた物件。スタートラインからマイソク＆見積書（78.1万円）到着済。溝の口特例枠の有力候補。 11/20 告知事項なし。紹介経由の別の方が優先扱い（未申込）。",
       "maisoku_image": "harvest_hills_506_page1.png",
       "estimate_image": "harvest_hills_506_page2.png",
       "renovated": false,
@@ -713,7 +714,7 @@
       "available_date": "即入居可（内装完了・見積は11/30契約開始想定）",
       "management_info": "株式会社レーベンコミュニティ ／ 日勤または巡回管理",
       "contract_terms": "普通借家2年 ／ 解約予告2ヶ月前 ／ 1年未満短期解約違約金：総賃料1ヶ月分 ／ 更新料1ヶ月＋更新事務手数料0.5ヶ月",
-      "disclosure_notes": "告知事項有無・契約開始日の12月下旬〜1月への調整可否・DENのエアコン設置可否を確認予定",
+      "disclosure_notes": "告知事項・特記事項なし（11/20 スタートライン八木様回答）",
       "washer_pan_status": "要現地採寸（玄関横W/Dスペース）",
       "equipments": {
         "bath_dryer": true,
@@ -737,8 +738,8 @@
         "Tier1希望の『浴室乾燥機』＋Tier2の『追い焚き』『温水洗浄便座』に加え、『インターネット無料（J:COM）』『ガス3口コンロ』付き"
       ],
       "ai_cons": [
-        "現在空室（即入居可）のため、見積書が『11月30日契約開始（12月分家賃発生）』で組まれている。12月下旬〜1月上旬まで契約開始日（家賃発生）を待ってもらえるか要確認（ただし初期費用が47.4万円と安いため、仮に12月分家賃16万円を払っても総額63.4万円で予算80万円以内に収まる）",
-        "2部屋目の『DEN（5.0畳）』が廊下側（窓なし・引き戸）のため、エアコン設置が可能か要確認",
+        "入居日の相談は不可。申込から約2週間で家賃発生が原則のため、1月入居なら12月中旬以降の申込が必要（それまで空いている保証はない）",
+        "DEN（5.0帖）のエアコン設置可否は不明。内見で確認してほしいとの回答",
         "解約予告が『2ヶ月前』、1年未満の解約は短期解約違約金（1ヶ月分）あり"
       ],
       "master_rating": 4,
@@ -754,7 +755,7 @@
         "train_atmosphere": "",
         "common_area_cleanliness": ""
       },
-      "notes": "板橋区ときわ台徒歩10分。仲介手数料0円で初期費用47.4万円と非常に安い。入居時期（家賃発生日）の交渉可否がカギ。",
+      "notes": "板橋区ときわ台徒歩10分。仲介手数料0円で初期費用47.4万円と非常に安い。入居時期（家賃発生日）の交渉可否がカギ。 11/20 告知なし・入居日相談不可（申込後約2週間で家賃発生）・DENのエアコンは内見で確認。",
       "maisoku_image": "regno_foresta_306_page1.png",
       "estimate_image": "regno_foresta_306_page2.png",
       "renovated": false,
@@ -1152,6 +1153,156 @@
       "estimate_image": "livion_kajigaya_202_page2.png",
       "renovated": true,
       "renovation_detail": "2026年11月 室内リフォーム：ユニットバス・システムキッチン・洗面台・シューズボックス・エアコン3台を新規交換"
+    },
+    {
+      "id": "j-palace-sakuradai-602",
+      "building_name": "Jパレス桜台",
+      "room_number": "602号室（6階）",
+      "source_type": "業者提案（マイソク有・参考提示）",
+      "area_category": "除外エリア（練馬区）",
+      "address": "東京都練馬区桜台3丁目36-12",
+      "station_info": "東京メトロ有楽町線・副都心線「氷川台」駅 徒歩5分 ／ 西武池袋線「桜台」駅 徒歩13分",
+      "walk_minutes": 5,
+      "commute_toyosu_min": 40,
+      "rent_yen": 150000,
+      "management_fee_yen": 8000,
+      "total_monthly_yen": 158000,
+      "floor_plan": "2LDK",
+      "area_sqm": 58.07,
+      "layout_detail": "LDK 約10帖 / 和室 約6帖 / 洋室 約4.5帖",
+      "structure": "RC造",
+      "built_date": "1994年2月",
+      "age_years": 32,
+      "floor_info": "6階 / 地上7階・地下1階",
+      "direction": "南東",
+      "gas_type": "都市ガス",
+      "available_date": "2026年11月下旬（空室）",
+      "management_info": "未確認",
+      "contract_terms": "普通借家2年 ／ 更新料1ヶ月 ／ 解約2ヶ月前予告 ／ 退去時エアコンクリーニング13,200円/台",
+      "disclosure_notes": "未確認",
+      "washer_pan_status": "洗面室内に室内洗濯機置場あり（寸法は要確認）",
+      "equipments": {
+        "bath_dryer": false,
+        "garbage_24h": true,
+        "floor_heating": false,
+        "reheating_bath": true,
+        "washlet": true,
+        "free_internet": false,
+        "auto_lock": true,
+        "delivery_box": true,
+        "counter_kitchen": false,
+        "roof_balcony": false
+      },
+      "renovated": false,
+      "renovation_detail": "",
+      "rule_check_status": "FAIL",
+      "fail_reasons": [
+        "❌ 練馬区は03.13で除外エリア",
+        "❌ 築32年（1994年2月築）で築30年超、リフォームの記載なし",
+        "⚠️ 2部屋目が洋室4.5帖（寝室の最低基準5〜5.5帖を下回る）・浴室乾燥機なし"
+      ],
+      "ai_score": 55,
+      "ai_pros": [
+        "氷川台駅徒歩5分、有楽町線で豊洲まで乗り換えなし（約40分）",
+        "総家賃15.8万円・礼金0・鍵交換代0円で初期費用が安い",
+        "RC造6階・南東向き・追い焚き・温水洗浄便座・独立洗面台・オートロック・宅配ボックス・敷地内ゴミ置場"
+      ],
+      "ai_cons": [
+        "練馬区（除外エリア）",
+        "築32年でリフォーム記載なし",
+        "洋室4.5帖が狭い",
+        "浴室乾燥機なし"
+      ],
+      "master_rating": 0,
+      "partner_rating": 0,
+      "status": "見送り（条件外）",
+      "suumo_url": "",
+      "viewing_checklist": {
+        "washer_width_mm": "",
+        "washer_depth_mm": "",
+        "washer_height_mm": "",
+        "soundproofing": "",
+        "safety_day_night": "",
+        "train_atmosphere": "",
+        "common_area_cleanliness": ""
+      },
+      "notes": "11/20 スタートライン八木様が「有楽町線の和光市方面がお手頃」の参考として提示（必須エリア外と明記）。見積書は希望すれば作成してもらえる。",
+      "maisoku_image": "j_palace_sakuradai_172_page1.png",
+      "estimate_image": ""
+    },
+    {
+      "id": "flora-cape-403",
+      "building_name": "フローラ ケイプ",
+      "room_number": "403号室（4階）",
+      "source_type": "パートナー共有（シャーメゾンショップ イチイ池袋店から資料受領）",
+      "area_category": "都内本命（板橋・北）",
+      "address": "東京都板橋区徳丸6丁目30-10",
+      "station_info": "東武東上線「東武練馬」駅 徒歩16分 ／ 都営三田線「高島平」駅 徒歩18分（東武練馬駅からバス3分＋徒歩6分も可）",
+      "walk_minutes": 16,
+      "commute_toyosu_min": 55,
+      "rent_yen": 152000,
+      "management_fee_yen": 10000,
+      "total_monthly_yen": 162000,
+      "floor_plan": "2LDK",
+      "area_sqm": 59.92,
+      "layout_detail": "2LDK（各室の帖数は資料PDFで要確認）",
+      "structure": "重量鉄骨造",
+      "built_date": "2022年5月",
+      "age_years": 4,
+      "floor_info": "4階 / 4階建（最上階）",
+      "direction": "東",
+      "gas_type": "都市ガス",
+      "available_date": "2026年12月上旬",
+      "management_info": "積水ハウス不動産（シャーメゾン）",
+      "contract_terms": "普通借家2年 ／ 更新料：新賃料1ヶ月 ／ 敷金なし・礼金1ヶ月 ／ 退去時クリーニング92,180円 ／ 24時間サポート月1,320円必須 ／ 仲介手数料1ヶ月（税別）",
+      "disclosure_notes": "未確認",
+      "washer_pan_status": "室内洗濯機置場あり（寸法は要確認）",
+      "equipments": {
+        "bath_dryer": true,
+        "garbage_24h": null,
+        "floor_heating": false,
+        "reheating_bath": true,
+        "washlet": true,
+        "free_internet": false,
+        "auto_lock": true,
+        "delivery_box": true,
+        "counter_kitchen": false,
+        "roof_balcony": false
+      },
+      "renovated": false,
+      "renovation_detail": "",
+      "rule_check_status": "FAIL",
+      "fail_reasons": [
+        "❌ 建物構造が重量鉄骨造で、必須条件（RC造／SRC造）を満たさない",
+        "⚠️ 東武練馬駅から徒歩16分（緩和条件の20分以内には収まる）"
+      ],
+      "ai_score": 62,
+      "ai_pros": [
+        "築4年の最上階・東向き",
+        "浴室乾燥機・追い焚き・温水洗浄便座・オートロック・宅配ボックス完備（Tier1/2の多くを満たす）",
+        "総家賃16.2万円・敷金0で、初期費用は約56万円の見込み（礼金1ヶ月＋仲介手数料1.1ヶ月込み）"
+      ],
+      "ai_cons": [
+        "重量鉄骨造（RC/SRCではない）",
+        "駅徒歩16分",
+        "退去時クリーニング92,180円と高め"
+      ],
+      "master_rating": 0,
+      "partner_rating": 0,
+      "status": "候補（検討中）",
+      "suumo_url": "https://www.shamaison.com/tokyo/area/13119/11404610/1430020000114046100403/",
+      "viewing_checklist": {
+        "washer_width_mm": "",
+        "washer_depth_mm": "",
+        "washer_height_mm": "",
+        "soundproofing": "",
+        "safety_day_night": "",
+        "train_atmosphere": "",
+        "common_area_cleanliness": ""
+      },
+      "notes": "11/19 Yumi様がシャーメゾン掲載物件に問い合わせ、イチイ池袋店（出口様）から資料を受領して転送。詳細はシャーメゾン公式ページから取得。資料PDF（403.pdf）は転送メールに添付されていなかった。",
+      "maisoku_image": "",
+      "estimate_image": ""
     }
   ],
   "proposals": [
@@ -1418,6 +1569,42 @@
       "subject": "【株式会社ハウスパッド】高橋優輔様 物件のお問い合わせありがとうございます。",
       "summary": "フォーム受付の自動確認メール",
       "action_status": "受付確認（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f6e49c87f2ea9",
+      "agency_id": "startline-kiba",
+      "received_at": "2026-11-20 11:58",
+      "direction": "INBOUND",
+      "subject": "Re: お問い合わせありがとうございます。不動産会社スタートラインです。",
+      "summary": "告知事項回答（2件とも無し）、ハーベストヒルズは紹介者優先・レグノは入居日相談不可。おすすめエリア（有楽町線和光市方面・千葉）と参考物件Jパレス桜台（練馬区）を提示。",
+      "action_status": "返信保留（他社の提案を見てから判断）。お礼の下書きはGmailに保存済み"
+    },
+    {
+      "gmail_message_id": "1a1f720dc0773119",
+      "agency_id": "lotus-ap-tsukishima",
+      "received_at": "2026-11-20 13:04",
+      "direction": "INBOUND",
+      "subject": "お部屋探しのご状況について/センチュリー21の山越と申します。",
+      "summary": "山越様から、状況を詳しく聞きたいので電話可能な時間を教えてほしいとの連絡（同日に不在着信あり）。",
+      "action_status": "11/20 マスター返信済（電話不可・条件全文をメール送付）・提案待ち"
+    },
+    {
+      "gmail_message_id": "1a1f6684aba2e99f",
+      "agency_id": "create-kinshicho",
+      "received_at": "2026-11-20 09:43",
+      "direction": "INBOUND",
+      "subject": "【新着メッセージ】高橋 優輔様へメッセージがあります",
+      "summary": "条件を受け取った旨と、良い物件があれば送るとの連絡。",
+      "action_status": "提案待ち（返信不要）"
+    },
+    {
+      "gmail_message_id": "1a1f43a4490f71aa",
+      "agency_id": "",
+      "received_at": "2026-11-19 23:33",
+      "direction": "INBOUND",
+      "subject": "Fwd: フローラ ケイプ 403号室のご案内（Yumi様転送）",
+      "summary": "Yumi様がシャーメゾン掲載のフローラケイプ403に問い合わせ、イチイ池袋店から募集中との回答を転送。",
+      "action_status": "物件登録済"
     }
   ]
 }
